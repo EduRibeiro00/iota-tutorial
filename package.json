@@ -1,0 +1,27 @@
+{
+  "name": "iota-tutorial",
+  "version": "1.0.0",
+  "description": "Repository hosting the code developed when following the IOTA cryptocurrency tutorials (https://docs.iota.org/docs/core/1.0/getting-started/get-started-js).",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EduRibeiro00/iota-tutorial.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EduRibeiro00/iota-tutorial/issues"
+  },
+  "homepage": "https://github.com/EduRibeiro00/iota-tutorial#readme",
+  "dependencies": {
+    "@iota/converter": "^1.0.0-beta.30",
+    "@iota/core": "^1.0.0-beta.30",
+    "@iota/extract-json": "^1.0.0-beta.30",
+    "@iota/mam": "^0.7.3",
+    "zeromq": "^6.0.0-beta.6"
+  }
+}
